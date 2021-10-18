@@ -1,0 +1,55 @@
+
+
+.viewItem img{
+
+    margin-top: 3%;
+    border-radius: 15px;
+
+
+}
+
+.viewItem{
+    width: 63%;
+    border: 3px solid green;
+    margin: 5% 15%;
+    height: 88vh;
+    border-radius: 39px;
+}
+.description{
+    display: flex;
+    margin: 2px 0px 17px 26px;
+}
+.description p{
+    padding: 2px;
+    padding: 0px 22px 0px 13px;
+    text-align: start;
+}
+
+.viewItem h3{
+    margin-top: 5px;
+}
+#add{
+    height: 43px;
+    width: 202px;
+    border: 2px solid lightseagreen;
+    display: inline-block;
+    border-radius: 12px;
+    color: black;
+    margin: -4px 11px;
+
+}
+#add:hover{
+
+    background-color: lightgreen;
+    transform: translateY(+3px);
+    transform: translateY(-3px);
+    border: 2px solid lightsteelblue;
+    transition:all 0.3s;
+
+}
+
+ #img{
+    height: 36px;
+    width: 54px;
+   margin: 2px 1px -8px 23px;
+}

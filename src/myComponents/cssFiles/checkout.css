@@ -1,0 +1,107 @@
+.container{
+    background-color: #a35de4;
+    border-radius: 12px;
+}
+.one{
+    
+    min-height: 49vh;
+    margin: 22px 30px;
+    width: 57vw;
+    display: flex;
+    
+}
+.del{
+
+    height: 42px!important;
+    width: 32px;
+    border: 2px solid black;
+    /* transform: rotate(-360deg); */
+    transition: all 0.5s;
+}
+.del:hover{
+
+    background-color: rgba(216, 21, 21, 0.788);
+    transform: rotate(350deg);
+    transition: all 0.8s;
+}
+
+.editqty{
+    margin-top: 10%;
+}
+
+button{
+    background-color: #a35de4;
+    border: 2px solid #a35de4;
+}
+
+.one h2{
+    padding: 10px;
+
+}
+.one p{
+    text-align: left;
+    margin: 30px;   
+}
+.one img{
+    
+    margin: 34px 25px;
+    border-radius: 15px;
+    height: 27vh;
+    
+}
+
+.btn{
+    border: 2px solid orange;
+    width: 80px;
+    height: 45px;
+    border-radius: 6px;
+    margin:20px 50px;
+}
+.btn:hover{
+    
+    background-color: orange;
+}
+
+.chekoutList{
+    height: 40vh;
+    width: 30vw;
+    background-color: rgb(130 131 183);
+    margin: 50px 29px;
+    border-radius: 12px;
+   
+}
+.chekoutList h2{
+    margin: 10px auto;
+}
+.chekoutList table{
+    margin: 39px 34px;
+    color:honeydew;
+}
+.pay{
+    width: 152px;
+    font-size: 20px;
+    position: relative;
+    bottom: 29px;
+    left: -59px;
+    background-color: bisque;
+}
+.pay:hover{
+    transform: translateY(4px) translateY(-2.5px) ;
+    background-color: green;
+    border: green;
+    transition: all 0.4s;
+}
+#p{
+    padding-right: 5px;
+}
+#check{
+
+    position: fixed;
+    top: 91px;
+    right: 20px;
+
+}
+#adjustqty{
+    width: 36px;
+    height: 21px;
+}
